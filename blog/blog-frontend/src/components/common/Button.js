@@ -12,6 +12,9 @@ const buttonStyle = css`
     outline: none;
     cursor: pointer;
 
+    
+
+
     background: ${palette.gray[8]};
     &:hover {
         background: ${palette.gray[6]};
@@ -34,6 +37,13 @@ const buttonStyle = css`
             background: ${palette.cyan[4]};
         }
     `}
+
+    &:disabled {
+        background: ${palette.gray[3]};
+        color: ${palette.gray[5]};
+        cursor: not-allowed;
+    }
+
 `;
 
 const StyledButton = styled.button`

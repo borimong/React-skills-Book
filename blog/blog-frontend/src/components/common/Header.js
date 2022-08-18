@@ -41,7 +41,7 @@ const Header = ({user, onLogout}) => {
         <HeaderBlock>
             <Wrapper>
                 <Link to = "/" className='logo'>
-                    REACTERS
+                    보리몽 블로그
                 </Link>
                 {user ? (
                     <div className='right'>
